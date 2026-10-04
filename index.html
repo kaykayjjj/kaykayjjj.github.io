@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sigma Prim's Site — a personal portfolio, projects, skills and photo gallery.">
+  <meta name="theme-color" content="#111827">
+  <title>Sigma Prim's Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Sigma Prim<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Photos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h1>Sigma Prim's <span>Site</span></h1>
+          <p class="hero-text">A place to show what I make, what I enjoy, and the projects I'm proud of.</p>
+          <div class="buttons">
+            <a class="btn primary" href="#projects">See my projects</a>
+            <a class="btn secondary" href="#gallery">View photos</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Portfolio highlight">
+          <div class="orb">SP</div>
+          <p>MY PORTFOLIO</p>
+          <strong>Build. Create. Share.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Hello! 👋</h2>
+        <p class="lead">Welcome to my site. This is where I can share a little about myself, my interests, and the things I create.</p>
+        <div class="info-grid">
+          <div class="info-card"><span>01</span><h3>Who I am</h3><p>Write a short introduction about yourself here.</p></div>
+          <div class="info-card"><span>02</span><h3>What I like</h3><p>Add your hobbies, interests, favourite subjects or activities.</p></div>
+          <div class="info-card"><span>03</span><h3>My goals</h3><p>Tell visitors what you want to learn or achieve.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Projects</h2>
+        <p class="lead">Replace these cards with your own projects.</p>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-number">01</div><h3>Project One</h3><p>Describe your first project here and explain what you made.</p><a href="#" class="text-link">Add project link →</a></article>
+          <article class="project-card"><div class="project-number">02</div><h3>Project Two</h3><p>Describe your second project here and explain what you learned.</p><a href="#" class="text-link">Add project link →</a></article>
+          <article class="project-card"><div class="project-number">03</div><h3>Project Three</h3><p>Show another project, achievement, design, game or creation.</p><a href="#" class="text-link">Add project link →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <p class="eyebrow">PHOTO GALLERY</p>
+        <h2>My Photos</h2>
+        <p class="lead">Put your images in the <code>images</code> folder and update the filenames below.</p>
+        <div class="gallery">
+          <figure><img src="images/photo-1.jpg" alt="Gallery photo 1" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 1</figcaption></figure>
+          <figure><img src="images/photo-2.jpg" alt="Gallery photo 2" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 2</figcaption></figure>
+          <figure><img src="images/photo-3.jpg" alt="Gallery photo 3" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 3</figcaption></figure>
+          <figure><img src="images/photo-4.jpg" alt="Gallery photo 4" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 4</figcaption></figure>
+          <figure><img src="images/photo-5.jpg" alt="Gallery photo 5" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 5</figcaption></figure>
+          <figure><img src="images/photo-6.jpg" alt="Gallery photo 6" onerror="this.closest('figure').classList.add('empty')"><figcaption>Photo 6</figcaption></figure>
+        </div>
+        <div class="photo-tip"><strong>📸 Adding photos:</strong> Put your pictures in <code>images/</code> and name them <code>photo-1.jpg</code>, <code>photo-2.jpg</code>, etc. PNG and WebP work too if you change the filename in <code>index.html</code>.</div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container narrow">
+        <p class="eyebrow">WHAT I CAN DO</p>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>💻 Web Design</span><span>🎨 Creativity</span><span>🧠 Problem Solving</span><span>🎮 Gaming</span><span>📷 Photography</span><span>✨ Add your own</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Contact</h2>
+        <p class="lead">Want people to contact you? Replace the placeholder email below with an address you are comfortable sharing publicly.</p>
+        <a class="contact-card" href="mailto:your-email@example.com">✉️ your-email@example.com</a>
+        <p class="small">Tip: If you're under 18, don't publish your home address, phone number, school, or other private information on a public website.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Sigma Prim's Site</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
